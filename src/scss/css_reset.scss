@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+  li {
+    list-style: none;
+  }
+}
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+li {
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    @extend a;
+  }
+}
+img {
+  -webkit-user-drag: none;
+  cursor: pointer;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+}
+
+.owl-carousel:hover .owl-controls .owl-buttons .owl-prev {
+  opacity: 1 !important;
+}
+.owl-carousel:hover .owl-controls .owl-buttons .owl-next {
+  opacity: 1 !important;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  color: #1b1b1b;
+  text-decoration: none;
+}

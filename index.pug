@@ -1,0 +1,24 @@
+extends _layout
+block headstyle
+
+    link(rel="stylesheet" href="/src/css/bootstrap.min.css")
+    link(rel="stylesheet" href="/src/css/owl.carousel.css")
+    link(rel="stylesheet" href="/src/css/owl.theme.default.min.css")
+    link(rel="stylesheet" href="/src/css/uicons-regular-straight.css")
+    link(rel="stylesheet" href="/src/css/css_reset.min.css")
+    link(rel="stylesheet" href="/src/css/style.min.css")
+
+block header 
+
+    include _header
+block body
+    main 
+        include _body.pug
+block footer 
+    include _footer.pug
+block script 
+
+    script(defer, src="./src/js/jquery.js")
+    script(defer, src="./src/js/bootstrap.bundle.min.js")
+    script(defer, src="./src/js/owl.carousel.min.js")
+    script(defer, src="./src/js/custom.js")

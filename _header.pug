@@ -1,0 +1,224 @@
+block header 
+    header.fixed-top
+        section.header 
+            .container-fluid 
+                .row 
+                    //-- Logo
+                    .col-xl-1.col-lg-2.col-md-7.col-sm-7.col-6.order-2.order-sm-2.order-lg-1.d-flex.justify-content-center
+                        a(href="index.html") 
+                            img.l_company(src="./src/images/logo_company.png" alt="logo_company")
+
+                    //-menu_show_page
+                    .col-xl-9.col-lg-8.parent_menu.order-lg-2.d-none.d-lg-flex
+                        nav.navbar  
+                            //-.collapse.show.navbar-collapse#navbar_menu 
+                            ul.navbar-nav
+                                li.nav-item
+                                    a.nav-link.active(href="javascript:void(0)") خانه
+                                li.nav-item.dropdown
+                                    a.nav-link.dropdown-toggle(href="javascript:void(0)" id='dropdown_product' role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") محصولات
+                                    i.fi-rs-angle-small-down
+                                    .dropdown-menu(aria-labelledby="dropdown_product")
+                                        a.dropdown-item(href="javascript:void(0)") فرش 1200 شانه
+                                        .dropdown-divider
+                                        a.dropdown-item(href="javascript:void(0)") فرش 1000 شانه 
+                                        .dropdown-divider
+                                        a.dropdown-item(href="javascript:void(0)") فرش 700 شانه
+                                        .dropdown-divider
+                                        a.dropdown-item(href="javascript:void(0)") گلیم 
+                                li.nav-item
+                                    a.nav-link(href="javascript:void(0)") تست دکور
+                                li.nav-item
+                                    a.nav-link(href="javascript:void(0)") مقالات
+                                li.nav-item
+                                    a.nav-link(href="javascript:void(0)") ویدیو 
+                                li.nav-item
+                                    a.nav-link(href="javascript:void(0)") سوالات متداول
+                                li.nav-item
+                                    a.nav-link(href="javascript:void(0)") درباره ما
+                                li.nav-item.dropdown
+                                    a.nav-link.dropdown(href="javascript:void(0)" id='dropdown_Content_us' role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") تماس با ما
+                                    i.fi-rs-angle-small-down
+                                    .dropdown-menu(aria-labelledby="dropdown_Content_us")
+                                        a.dropdown-item(href="javascript:void(0)") معرفی شرکت
+                                        .dropdown-divider
+                                        a.dropdown-item(href="javascript:void(0)") معرفی مجموعه 
+                                        .dropdown-divider
+                                        a.dropdown-item(href="javascript:void(0)") فرش 700 شانه
+                                        .dropdown-divider
+                                        a.dropdown-item(href="javascript:void(0)") گلیم 
+
+                    //- icon_dropdown
+                    .col-md-2.col-sm-2.col-6.order-1.order-sm-1.d-lg-none.dropdown_parent
+                        .drowdown 
+                            i.fi-rs-list
+                    //-mobile_menu
+                    .drop.d-flex.d-lg-none
+                        .parent_bar
+                            header 
+                                .logo
+                                    img(src="./src/images/logo_company-2.png" alt="")
+                                .prof_parent
+                                    .profile 
+                                        img(src="./src/images/Avatar.png" alt="user_info")
+                                    .info_user 
+                                        p.title_data علیرضا خلیلی
+                                        p.title_data  عزیز خوش آمدید !
+
+                                a(href="javascript:void(0)").close_menu 
+                                    i.fi-rs-cross-circle
+                            section.body 
+                                .main_menu
+                                    ul#menu
+                                        a.link(href="javascript:void(0)")
+                                            .box_item
+                                                .title_box
+                                                    i.fi-rs-home
+                                                    li.item.menu خانه
+                                                
+
+
+
+                                        a.link(href="javascript:void(0)")
+                                            .box_item.dropdown
+                                                .title_box
+                                                    i.fi-rs-shopping-cart
+                                                    li.item.menu محصولات
+                                                .arrow_box
+                                                    i.fi-rs-angle-small-left
+                                            ul.submenu 
+                                                li فرش 1200 شانه
+                                                li فرش 1000 شانه
+                                                li فرش 700 شانه
+                                                li فرش 500 شانه
+
+                                        a.link(href="javascript:void(0)")
+                                            .box_item
+                                                .title_box
+                                                    i.fi-rs-reflect
+                                                    li.item.menu تست دکور
+                                                
+                                        a.link(href="javascript:void(0)")
+                                            .box_item
+                                                .title_box
+                                                    i.fi-rs-form
+                                                    li.item.menu مقالات
+                                                
+                                        a.link(href="javascript:void(0)")
+                                            .box_item
+                                                .title_box
+                                                    i.fi-rs-film
+                                                    li.item.menu ویدیو
+                                                
+                                        a.link(href="javascript:void(0)")
+                                            .box_item
+                                                .title_box
+                                                    i.fi-rs-interrogation
+                                                    li.item.menu سوالات متداول
+                                                
+                                        a.link(href="javascript:void(0)")
+                                            .box_item.dropdown
+                                                .title_box
+                                                    i.fi-rs-id-badge
+                                                    li.item.menu درباره ما
+                                                .arrow_box
+                                                    i.fi-rs-angle-small-left
+                                            ul.submenu 
+                                                li معرفی مجموعه
+                                                li معرفی شرکت
+
+                                        a.link(href="javascript:void(0)")
+                                            .box_item
+                                                .title_box
+                                                    i.fi-rs-headset
+                                                    li.item.menu تماس با ما
+                                                
+                                        a.link(href="javascript:void(0)")
+                                            .box_item
+                                                .title_box
+                                                    i.fi-rs-sign-out
+                                                    li.item.menu خروج از حساب کاربری
+
+                                        br
+                                        br
+
+
+                    //- item_shop
+                    .col-xl-2.col-lg-2.col-md-3.col-sm-3.col-4.order-sm-3.order-lg-3.d-none.d-sm-flex.parent_item 
+                        a(href="javascript:void(0)").search 
+                            i.fi-rs-search
+
+                        .cart
+                            a(href="javascript:void(0)").shop
+                                i.fi-rs-shopping-cart-check 
+                                span.badge_shop.badge 16
+
+                            figure.carts.d-none.d-lg-block 
+                                .header
+                                    a.status(href="javascript:void(0)") 
+                                        p.cart_title  سبد خرید 
+                                        p.balance 25 کالا
+
+                                    a.veiw(href="javascript:void(0)")  مشاهده سبد خرید
+                                        i.fi-rs-angle-small-left
+
+                                figcaption 
+                                    ul.item
+                                        .cart_img 
+                                            a(href="javascript:void(0)") 
+                                                img.img_product(src="./src/images/1.jpg" alt="" )
+
+                                        .cart_detail
+                                            a(href="javascript:void(0)").name_product فرش تراکم 1000 مدلی گلبی
+                                            .price 5,580,000 تومان
+                                            .item_multi
+                                                .badges 
+                                                    .badge 40% -
+                                                    .badge 4 عدد
+                                                    .badge ارسال رایگان
+
+                                                a(href="javascript:void(0)") 
+                                                    i.fi-rs-trash
+                                    ul.item
+                                        .cart_img 
+                                            a(href="javascript:void(0)") 
+                                                img.img_product(src="./src/images/1.jpg" alt="" )
+
+                                        .cart_detail
+                                            a(href="javascript:void(0)").name_product فرش تراکم 1000 مدلی گلبی
+                                            .price 5,580,000 تومان
+                                            .item_multi
+                                                .badges 
+                                                    .badge 40% -
+                                                    .badge 4 عدد
+                                                    .badge ارسال رایگان
+
+                                                a(href="") 
+                                                    i.fi-rs-trash
+                                    ul.item
+                                        .cart_img 
+                                            a(href="javascript:void(0)") 
+                                                img.img_product(src="./src/images/1.jpg" alt="" )
+
+                                        .cart_detail
+                                            a(href="javascript:void(0)").name_product فرش تراکم 1000 مدلی گلبی
+                                            .price 5,580,000 تومان
+                                            .item_multi
+                                                .badges 
+                                                    .badge 40% -
+                                                    .badge 4 عدد
+                                                    .badge ارسال رایگان
+
+                                                a(href="") 
+                                                    i.fi-rs-trash
+
+                                .footer 
+                                    button.btn.skip_cart ادامه سبد خرید
+                                    a(href="javascript:void(0)").price 
+                                        p.title_price مبلغ قابل پرداخت 
+                                        p.text_price 5,690,000 تومان
+
+                        a(href="javascript:void(0)").user 
+                            i.fi-rs-user
+                        .parent_lang
+                            img.lang(src="./src/images/iran.jpg" alt="" )
